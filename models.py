@@ -5,7 +5,7 @@ from django.contrib.gis.db import models
 from django.contrib.gis.geos import Point
 from django.utils.translation import ugettext_lazy as _
 
-from fields import AutoSlugField
+from libs.fields import AutoSlugField
 
 from south.modelsinspector import add_introspection_rules
 add_introspection_rules([], ["^timezones.fields.LocalizedDateTimeField"])
